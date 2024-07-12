@@ -1,0 +1,273 @@
+@import '../utils/variables.scss';
+@import '../utils/fonts.scss';
+
+.pokemonCard {
+  // font-family: 'Press Start 2P', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 275px;
+  height: 400px;
+
+  &.normal {
+    border-color: $normal-border;
+    background-color: $normal-bg;
+  }
+
+  &.fighting {
+    border-color: $fighting-border;
+    background-color: $fighting-bg;
+  }
+
+  &.flying {
+    border-color: $flying-border;
+    background-color: $flying-bg;
+  }
+
+  &.poison {
+    border-color: $poison-border;
+    background-color: $poison-bg;
+  }
+
+  &.ground {
+    border-color: $ground-border;
+    background-color: $ground-bg;
+  }
+
+  &.rock {
+    border-color: $rock-border;
+    background-color: $rock-bg;
+  }
+
+  &.bug {
+    border-color: $bug-border;
+    background-color: $bug-bg;
+  }
+
+  &.ghost {
+    border-color: $ghost-border;
+    background-color: $ghost-bg;
+  }
+
+  &.steel {
+    border-color: $steel-border;
+    background-color: $steel-bg;
+  }
+
+  &.fire {
+    border-color: $fire-border;
+    background-color: $fire-bg;
+  }
+
+  &.water {
+    border-color: $water-border;
+    background-color: $water-bg;
+  }
+
+  &.grass {
+    border-color: $grass-border;
+    background-color: $grass-bg;
+  }
+
+  &.electric {
+    border-color: $electric-border;
+    background-color: $electric-bg;
+  }
+
+  &.psychic {
+    border-color: $psychic-border;
+    background-color: $psychic-bg;
+  }
+
+  &.ice {
+    border-color: $ice-border;
+    background-color: $ice-bg;
+  }
+
+  &.dragon {
+    border-color: $dragon-border;
+    background-color: $dragon-bg;
+  }
+
+  &.dark {
+    border-color: $dark-border;
+    background-color: $dark-bg;
+  }
+
+  &.fairy {
+    border-color: $fairy-border;
+    background-color: $fairy-bg;
+  }
+
+  &.shadow {
+    border-color: $shadow-border;
+    background-color: $shadow-bg;
+  }
+
+  &.default {
+    border-color: $default-border;
+    background-color: $default-bg;
+  }
+
+  .pokemonLink>img {
+    width: 215px;
+    height: 215px;
+  }
+
+  .pokemonLink:hover {
+    transition: 0.25s;
+    transform: scale(1.1);
+  }
+
+  .pokemonId {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  // .pokemonId:hover {
+  //   color: white;
+  //   // font-size: larger;
+  //   -webkit-text-stroke-width: 1px;
+  //   -webkit-text-stroke-color: black;
+  // }
+
+  // .pokemonName:hover {
+  //   color: white !important;
+  //   font-size: larger !important;
+  // }
+}
+
+.typesContainer {
+  // border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  background-color: black;
+  padding: 6px;
+  width: 100%;
+}
+
+.typeOne,
+.typeTwo {
+  // border: 2px solid black;
+  border-radius: 8px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+
+  &.normal {
+    border-color: $normal-border;
+    background-color: $normal-bg;
+  }
+
+  &.fighting {
+    border-color: $fighting-border;
+    background-color: $fighting-bg;
+  }
+
+  &.flying {
+    border-color: $flying-border;
+    background-color: $flying-bg;
+  }
+
+  &.poison {
+    border-color: $poison-border;
+    background-color: $poison-bg;
+  }
+
+  &.ground {
+    border-color: $ground-border;
+    background-color: $ground-bg;
+  }
+
+  &.rock {
+    border-color: $rock-border;
+    background-color: $rock-bg;
+  }
+
+  &.bug {
+    border-color: $bug-border;
+    background-color: $bug-bg;
+  }
+
+  &.ghost {
+    border-color: $ghost-border;
+    background-color: $ghost-bg;
+  }
+
+  &.steel {
+    border-color: $steel-border;
+    background-color: $steel-bg;
+  }
+
+  &.fire {
+    border-color: $fire-border;
+    background-color: $fire-bg;
+  }
+
+  &.water {
+    border-color: $water-border;
+    background-color: $water-bg;
+  }
+
+  &.grass {
+    border-color: $grass-border;
+    background-color: $grass-bg;
+  }
+
+  &.electric {
+    border-color: $electric-border;
+    background-color: $electric-bg;
+  }
+
+  &.psychic {
+    border-color: $psychic-border;
+    background-color: $psychic-bg;
+  }
+
+  &.ice {
+    border-color: $ice-border;
+    background-color: $ice-bg;
+  }
+
+  &.dragon {
+    border-color: $dragon-border;
+    background-color: $dragon-bg;
+  }
+
+  &.dark {
+    border-color: $dark-border;
+    background-color: $dark-bg;
+  }
+
+  &.fairy {
+    border-color: $fairy-border;
+    background-color: $fairy-bg;
+  }
+
+  &.shadow {
+    border-color: $shadow-border;
+    background-color: $shadow-bg;
+  }
+
+  &.default {
+    border-color: $default-border;
+    background-color: $default-bg;
+  }
+
+  &>p {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

@@ -6,14 +6,11 @@ const Nav = () => {
   {/* <input type="checkbox" id="menu" /> */}
   {/* <label htmlFor="menu"><img src={`${burgerIcon}`} alt="burger" width="24px" /></label> */}
   <ul>
-    <li>
+    <li className="linkNav">
       <Link to="/">Home</Link>
     </li>
-    <li>
+    <li className="linkNav">
       <Link to="/new">Create New Pokémon</Link>
-    </li>
-    <li>
-      <Link to="/pokemon:id">Pokémon</Link>
     </li>
   </ul>
 </nav>;

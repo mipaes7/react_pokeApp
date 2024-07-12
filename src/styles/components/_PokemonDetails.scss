@@ -1,0 +1,543 @@
+@import '../utils/variables.scss';
+
+.detailsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    margin: 22px;
+    gap: 12px;
+    border: 3px solid;
+    border-radius: 10px;
+
+    &.normal {
+        border-color: $normal-border;
+    }
+
+    &.fighting {
+        border-color: $fighting-border;
+    }
+
+    &.flying {
+        border-color: $flying-border;
+    }
+
+    &.poison {
+        border-color: $poison-border;
+    }
+
+    &.ground {
+        border-color: $ground-border;
+    }
+
+    &.rock {
+        border-color: $rock-border;
+    }
+
+    &.bug {
+        border-color: $bug-border;
+    }
+
+    &.ghost {
+        border-color: $ghost-border;
+    }
+
+    &.steel {
+        border-color: $steel-border;
+    }
+
+    &.fire {
+        border-color: $fire-border;
+    }
+
+    &.water {
+        border-color: $water-border;
+    }
+
+    &.grass {
+        border-color: $grass-border;
+    }
+
+    &.electric {
+        border-color: $electric-border;
+    }
+
+    &.psychic {
+        border-color: $psychic-border;
+    }
+
+    &.ice {
+        border-color: $ice-border;
+    }
+
+    &.dragon {
+        border-color: $dragon-border;
+    }
+
+    &.dark {
+        border-color: $dark-border;
+    }
+
+    &.fairy {
+        border-color: $fairy-border;
+    }
+
+    &.shadow {
+        border-color: $shadow-border;
+    }
+
+    &.default {
+        border-color: $default-border;
+    }
+
+}
+
+.detailCardHeader {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2px;
+    border-radius: 10px;
+
+    &.normal {
+        border-color: $normal-border;
+        background-color: $normal-bg;
+    }
+
+    &.fighting {
+        border-color: $fighting-border;
+        background-color: $fighting-bg;
+    }
+
+    &.flying {
+        border-color: $flying-border;
+        background-color: $flying-bg;
+    }
+
+    &.poison {
+        border-color: $poison-border;
+        background-color: $poison-bg;
+    }
+
+    &.ground {
+        border-color: $ground-border;
+        background-color: $ground-bg;
+    }
+
+    &.rock {
+        border-color: $rock-border;
+        background-color: $rock-bg;
+    }
+
+    &.bug {
+        border-color: $bug-border;
+        background-color: $bug-bg;
+    }
+
+    &.ghost {
+        border-color: $ghost-border;
+        background-color: $ghost-bg;
+    }
+
+    &.steel {
+        border-color: $steel-border;
+        background-color: $steel-bg;
+    }
+
+    &.fire {
+        border-color: $fire-border;
+        background-color: $fire-bg;
+    }
+
+    &.water {
+        border-color: $water-border;
+        background-color: $water-bg;
+    }
+
+    &.grass {
+        border-color: $grass-border;
+        background-color: $grass-bg;
+    }
+
+    &.electric {
+        border-color: $electric-border;
+        background-color: $electric-bg;
+    }
+
+    &.psychic {
+        border-color: $psychic-border;
+        background-color: $psychic-bg;
+    }
+
+    &.ice {
+        border-color: $ice-border;
+        background-color: $ice-bg;
+    }
+
+    &.dragon {
+        border-color: $dragon-border;
+        background-color: $dragon-bg;
+    }
+
+    &.dark {
+        border-color: $dark-border;
+        background-color: $dark-bg;
+    }
+
+    &.fairy {
+        border-color: $fairy-border;
+        background-color: $fairy-bg;
+    }
+
+    &.shadow {
+        border-color: $shadow-border;
+        background-color: $shadow-bg;
+    }
+
+    &.default {
+        border-color: $default-border;
+        background-color: $default-bg;
+    }
+}
+
+.detailCardBody {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    &.normal {
+        background-color: $normal-bg-light;
+      }
+      
+      &.fighting {
+        background-color: $fighting-bg-light;
+      }
+      
+      &.flying {
+        background-color: $flying-bg-light;
+      }
+      
+      &.poison {
+        background-color: $poison-bg-light;
+      }
+      
+      &.ground {
+        background-color: $ground-bg-light;
+      }
+      
+      &.rock {
+        background-color: $rock-bg-light;
+      }
+      
+      &.bug {
+        background-color: $bug-bg-light;
+      }
+      
+      &.ghost {
+        background-color: $ghost-bg-light;
+      }
+      
+      &.steel {
+        background-color: $steel-bg-light;
+      }
+      
+      &.fire {
+        background-color: $fire-bg-light;
+      }
+      
+      &.water {
+        background-color: $water-bg-light;
+      }
+      
+      &.grass {
+        background-color: $grass-bg-light;
+      }
+      
+      &.electric {
+        background-color: $electric-bg-light;
+      }
+      
+      &.psychic {
+        background-color: $psychic-bg-light;
+      }
+      
+      &.ice {
+        background-color: $ice-bg-light;
+      }
+      
+      &.dragon {
+        background-color: $dragon-bg-light;
+      }
+      
+      &.dark {
+        background-color: $dark-bg-light;
+      }
+      
+      &.fairy {
+        background-color: $fairy-bg-light;
+      }
+      
+      &.shadow {
+        background-color: $shadow-bg-light;
+      }
+      
+      &.default {
+        background-color: $default-bg-light;
+      }
+      
+  }
+  
+
+.detailsTypesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    width: 50%;
+
+    &>span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        border-radius: 10px;
+        border: 3px solid;
+
+        &.normal {
+            border-color: $normal-border;
+            background-color: $normal-bg;
+        }
+
+        &.fighting {
+            border-color: $fighting-border;
+            background-color: $fighting-bg;
+        }
+
+        &.flying {
+            border-color: $flying-border;
+            background-color: $flying-bg;
+        }
+
+        &.poison {
+            border-color: $poison-border;
+            background-color: $poison-bg;
+        }
+
+        &.ground {
+            border-color: $ground-border;
+            background-color: $ground-bg;
+        }
+
+        &.rock {
+            border-color: $rock-border;
+            background-color: $rock-bg;
+        }
+
+        &.bug {
+            border-color: $bug-border;
+            background-color: $bug-bg;
+        }
+
+        &.ghost {
+            border-color: $ghost-border;
+            background-color: $ghost-bg;
+        }
+
+        &.steel {
+            border-color: $steel-border;
+            background-color: $steel-bg;
+        }
+
+        &.fire {
+            border-color: $fire-border;
+            background-color: $fire-bg;
+        }
+
+        &.water {
+            border-color: $water-border;
+            background-color: $water-bg;
+        }
+
+        &.grass {
+            border-color: $grass-border;
+            background-color: $grass-bg;
+        }
+
+        &.electric {
+            border-color: $electric-border;
+            background-color: $electric-bg;
+        }
+
+        &.psychic {
+            border-color: $psychic-border;
+            background-color: $psychic-bg;
+        }
+
+        &.ice {
+            border-color: $ice-border;
+            background-color: $ice-bg;
+        }
+
+        &.dragon {
+            border-color: $dragon-border;
+            background-color: $dragon-bg;
+        }
+
+        &.dark {
+            border-color: $dark-border;
+            background-color: $dark-bg;
+        }
+
+        &.fairy {
+            border-color: $fairy-border;
+            background-color: $fairy-bg;
+        }
+
+        &.shadow {
+            border-color: $shadow-border;
+            background-color: $shadow-bg;
+        }
+
+        &.default {
+            border-color: $default-border;
+            background-color: $default-bg;
+        }
+    }
+}
+
+.detailCardAbout {
+    display: flex;
+    gap: 18px;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.abilitiesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+}
+
+.descriptionContainer {
+    font-weight: bold;
+}
+
+.detailCardStats {
+    width: 100%;
+}
+
+.progressBar {
+    border-radius: 4px;
+    width: 100%;
+
+    &.normal {
+        border-color: $normal-border;
+        background-color: $normal-bg;
+    }
+
+    &.fighting {
+        border-color: $fighting-border;
+        background-color: $fighting-bg;
+    }
+
+    &.flying {
+        border-color: $flying-border;
+        background-color: $flying-bg;
+    }
+
+    &.poison {
+        border-color: $poison-border;
+        background-color: $poison-bg;
+    }
+
+    &.ground {
+        border-color: $ground-border;
+        background-color: $ground-bg;
+    }
+
+    &.rock {
+        border-color: $rock-border;
+        background-color: $rock-bg;
+    }
+
+    &.bug {
+        border-color: $bug-border;
+        background-color: $bug-bg;
+    }
+
+    &.ghost {
+        border-color: $ghost-border;
+        background-color: $ghost-bg;
+    }
+
+    &.steel {
+        border-color: $steel-border;
+        background-color: $steel-bg;
+    }
+
+    &.fire {
+        border-color: $fire-border;
+        background-color: $fire-bg;
+    }
+
+    &.water {
+        border-color: $water-border;
+        background-color: $water-bg;
+    }
+
+    &.grass {
+        border-color: $grass-border;
+        background-color: $grass-bg;
+    }
+
+    &.electric {
+        border-color: $electric-border;
+        background-color: $electric-bg;
+    }
+
+    &.psychic {
+        border-color: $psychic-border;
+        background-color: $psychic-bg;
+    }
+
+    &.ice {
+        border-color: $ice-border;
+        background-color: $ice-bg;
+    }
+
+    &.dragon {
+        border-color: $dragon-border;
+        background-color: $dragon-bg;
+    }
+
+    &.dark {
+        border-color: $dark-border;
+        background-color: $dark-bg;
+    }
+
+    &.fairy {
+        border-color: $fairy-border;
+        background-color: $fairy-bg;
+    }
+
+    &.shadow {
+        border-color: $shadow-border;
+        background-color: $shadow-bg;
+    }
+
+    &.default {
+        border-color: $default-border;
+        background-color: $default-bg;
+    }
+}
